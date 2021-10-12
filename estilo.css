@@ -38,17 +38,16 @@ footer{
     margin-top: 25px;
     text-align: left;
     border: solid 1px grey;
+    
 }
 footer p{
+    display: inline;
     margin: 10px;
     text-align: left;
     margin-top: 7px;
     color: white;
     text-shadow: 2px 2px 2px black
 }
- footer img{
-    margin-left: 10px;
- }
 
 .seca{
     width: 80%;
@@ -75,4 +74,11 @@ footer p{
     float: left;
     margin-right: 15px;
     box-shadow: 3px 3px 10px #999;
+}
+@media screen and (max-width: 500px) {
+    footer p{
+       display: block;
+        
+    }
+    
 }
