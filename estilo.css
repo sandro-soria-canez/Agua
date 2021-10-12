@@ -75,7 +75,7 @@ footer p{
     margin-right: 15px;
     box-shadow: 3px 3px 10px #999;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     footer p{
        display: block;
         
